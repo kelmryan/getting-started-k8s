@@ -1,3 +1,5 @@
+# https://istio.io/latest/docs/tasks/security/authentication/mtls-migration/
+# kubectl get PeerAuthentication mtls-default -n vote -o yaml
 apiVersion: security.istio.io/v1beta1
 kind: PeerAuthentication
 metadata:
